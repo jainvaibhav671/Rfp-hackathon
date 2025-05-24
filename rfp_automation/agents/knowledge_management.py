@@ -40,7 +40,7 @@ class KnowledgeManagementAgent:
         client = chromadb.PersistentClient(path=self.persist_directory)
         try:
             return client.get_collection(self.collection_name)
-        except ValueError:
+        except:
             return client.create_collection(
                 name=self.collection_name,
                 embedding_function=self.embedding_function,  # type:ignore
