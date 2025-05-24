@@ -548,7 +548,7 @@ def display_vendor_tab(state: Dict[str, Any]):
                 "Risk Assessment": 10,
                 "Team Expertise": 10,
             },
-            "Abysz": {
+            "ABYSZ": {
                 "Technical Fit": 30,
                 "Cost Efficiency": 25,
                 "Timeline": 20,
